@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Hello from './Hello';
+import Clock from './Clock';
+import Props from './Props';
 import reportWebVitals from './reportWebVitals';
 
+
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  
+    <Props attr="valor 1" attr2="valor 2" attr3="valor 13" />,
+
   document.getElementById('root')
 );
 
