@@ -4,15 +4,14 @@ import './index.css';
 import App from './App';
 import Hello from './Hello';
 import Clock from './Clock';
+import Clock2 from './Clock2';
+import Event from './Event';
 import Props from './Props';
 import reportWebVitals from './reportWebVitals';
 
 
-
 ReactDOM.render(
-  
-    <Props attr="valor 1" attr2="valor 2" attr3="valor 13" />,
-
+    <Event />,
   document.getElementById('root')
 );
 
