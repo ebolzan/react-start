@@ -18,7 +18,6 @@ handleChange = (event) => {
 
     console.log(this.state);
 }
-
 showData = () =>
 {
     alert("name:"+ this.state.name+ " -- idade: "+this.state.age);
@@ -38,7 +37,7 @@ showData = () =>
     {
         const { data } = this.state;
         return (
-            <div>
+            <div> 
                <input type="text" onChange={this.handleChange} name="name" id="" placeholder="enter your name"></input>
                <input type="text" onChange={this.handleChange} name="age" id="" placeholder="enter your name"></input>
                 <button onClick={this.showData} type="button">Ok</button>
